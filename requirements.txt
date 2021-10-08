@@ -1,0 +1,10 @@
+certifi
+chardet
+idna
+python-dotenv
+requests
+six
+spotipy
+urllib3
+Telethon
+pyTelegramBotAPI
