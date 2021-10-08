@@ -8,6 +8,7 @@ from telethon import functions, types
 import bd
 api_id = bd.api_id
 api_hash = bd.api_hash
+status = bd.status
 
 spotify = spotipy.Spotify(
 	auth_manager=SpotifyOAuth(
@@ -54,8 +55,3 @@ if __name__ == '__main__':
 
 	except Exception as e:
 		print(e)
-if bd.host == 1:
-    while True:
-        os.system(f'"{host1} main.py"')
-else:
-    print(' ')
